@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <title>Showing lazy</title>
+        <link rel='stylesheet' href='styles.css'>
+    </head>
+    <body>
+        <svg id='svg-non-lazy'>
+            <rect width="300" height="300" fill="#eee" stroke="#ccc" />
+            <text class='title array' text-anchor="middle" x="150" y="20">Array: "people"</text>
+
+            <text text-anchor="middle" x="400" y="20">filter: isFemale</text>
+
+            <rect width="300" height="300" fill="#eee" stroke="#ccc" x ="500" />
+            <text class='title array' text-anchor="middle" x="650" y="20">Array: "females"</text>
+
+            <text text-anchor="middle" x="900" y="20">find: isAbove30</text>
+
+            <rect width="300" height="300" fill="#eee" stroke="#ccc" x ="1000" />
+            <text class='title' text-anchor="middle" x="1150" y="20">Female above 30</text>
+        </svg>
+        <br>
+        <button id='non-lazy-next'>Next</button>
+
+        <hr>
+
+        <svg id='svg-lazy'>
+        </svg>
+
+        <script src='velocity.js'></script>
+        <script src='helpers.js'></script>
+        <script src='go.js'></script>
+        <script src='js.js'></script>
+    </body>
+</html>

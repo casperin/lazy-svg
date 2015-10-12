@@ -1,0 +1,9 @@
+body {
+    font-family: sans-serif;
+}
+
+svg {
+    width: 1400px;
+    height: 330px;
+    font-family: monospace;
+}
